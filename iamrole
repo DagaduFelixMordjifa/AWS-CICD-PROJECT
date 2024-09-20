@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ssm:GetParameters",
+                "ssm:GetParameter"
+            ],
+            "Resource": [
+                "arn:aws:ssm:us-east-1:<YOUR_ACCOUNT_ID>:parameter/cloud-cicd/docker-credentials/username",
+                "arn:aws:ssm:us-east-1:<YOUR_ACCOUNT_ID>:parameter/cloud-cicd/docker-credentials/password",
+                "arn:aws:ssm:us-east-1:<YOUR_ACCOUNT_ID>:parameter/cloud-cicd/docker-registry/url"
+            ]
+        }
+    ]
+}
