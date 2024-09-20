@@ -13,9 +13,7 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
 2. [appspec](#appspec)
 3. [buildspec](#buildspec)
 4. [Dockerfile](#Dockerfile)
-   - 4.1 [Containerizing Applications with Docker](#containerizing-applications-with-docker)
-   - 4.2 [Writing Kubernetes Deployment YAMLs](#writing-kubernetes-deployment-yamls)
-   - 4.3 [Deploying Applications to EKS: Step-by-step Guide](#deploying-applications-to-eks-step-by-step-guide)
+5. [Application Code](#ApplicationCode)
 
 
 ## scripts
@@ -29,3 +27,22 @@ The `buildspec` yaml file is used by AWS CodeBuild to define the build process f
 
 ## Dockerfile
 The `Dockerfile` is a text file that contains instructions for building a Docker image for the application.
+
+## Application Code
+The `Application Code` is the source code for the application that we want to deploy to the EC2
+
+## Project Details
+🛠️ **Tools Explored:**
+- AWS CodePipeline
+- AWS CodeBuild
+- AWS CodeDeploy
+- Docker
+- EC2
+
+## Getting Started
+To get started with this project, refer to our [comprehensive guide](https://medium.com/@www.gyenoch/aws-cicd-pipeline-deploy-application-on-ec2-with-aws-code-pipeline-c93dbc283679) that walks you through infrastructure provisioning, CI/CD pipeline configuration and more.
+
+## Contributing
+We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
+
+Happy Coding! 🚀
