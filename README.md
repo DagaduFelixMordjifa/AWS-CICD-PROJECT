@@ -12,10 +12,7 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
 1. [scripts](#scripts)
    - 1.1 [EKS vs. Self-Managed Kubernetes: Pros and Cons](#eks-vs-self-managed-kubernetes-pros-and-cons)
 
-2. [Setting up your AWS Environment for EKS](#setting-up-your-aws-environment-for-eks)
-   - 2.1 [Creating an AWS Account and Setting up IAM Users](#creating-an-aws-account-and-setting-up-iam-users)
-   - 2.2 [Configuring the AWS CLI and kubectl](#configuring-the-aws-cli-and-kubectl)
-   - 2.3 [Preparing Networking and Security Groups for EKS](#preparing-networking-and-security-groups-for-eks)
+2. [appspec](#appspec)
 
 3. [Launching your First EKS Cluster](#launching-your-first-eks-cluster)
    - 3.1 [Using the EKS Console for Cluster Creation](#using-the-eks-console-for-cluster-creation)
@@ -30,3 +27,6 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
 
 ## scripts
 The `scripts` directory contains the start_container.sh and stop_container.sh that will be use to start and stop our container application
+
+## appspec
+The `appspec` yaml file in AWS CodeDeploy defines the deployment instructions for the application. It specifies how CodeDeploy should handle the lifecycle of the application during the deployment process.
