@@ -10,16 +10,9 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
 ## Table of Contents:
 
 1. [scripts](#scripts)
-   - 1.1 [EKS vs. Self-Managed Kubernetes: Pros and Cons](#eks-vs-self-managed-kubernetes-pros-and-cons)
-
 2. [appspec](#appspec)
-
-3. [Launching your First EKS Cluster](#launching-your-first-eks-cluster)
-   - 3.1 [Using the EKS Console for Cluster Creation](#using-the-eks-console-for-cluster-creation)
-   - 3.2 [Launching an EKS Cluster via AWS CLI](#launching-an-eks-cluster-via-aws-cli)
-   - 3.3 [Authenticating with the EKS Cluster](#authenticating-with-the-eks-cluster)
-
-4. [Deploying Applications on EKS](#deploying-applications-on-eks)
+3. [buildspec](#buildspec)
+4. [Dockerfile](#Dockerfile)
    - 4.1 [Containerizing Applications with Docker](#containerizing-applications-with-docker)
    - 4.2 [Writing Kubernetes Deployment YAMLs](#writing-kubernetes-deployment-yamls)
    - 4.3 [Deploying Applications to EKS: Step-by-step Guide](#deploying-applications-to-eks-step-by-step-guide)
@@ -30,3 +23,9 @@ The `scripts` directory contains the start_container.sh and stop_container.sh th
 
 ## appspec
 The `appspec` yaml file in AWS CodeDeploy defines the deployment instructions for the application. It specifies how CodeDeploy should handle the lifecycle of the application during the deployment process.
+
+## buildspec
+The `buildspec` yaml file is used by AWS CodeBuild to define the build process for the application. It outlines the steps that CodeBuild should follow to build the application image and push to DockerHub registery.
+
+## Dockerfile
+The `Dockerfile` is a text file that contains instructions for building a Docker image for the application.
