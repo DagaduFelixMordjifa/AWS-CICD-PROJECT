@@ -5,6 +5,7 @@
 
 ## Introduction
 ### AWS CICD Pipeline: Deploy Application on EC2 with AWS Code Pipeline
+In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePipeline, CodeBuild and CodeDeploy that will automate our build and deploy process.
 
 ## Table of Contents:
 
