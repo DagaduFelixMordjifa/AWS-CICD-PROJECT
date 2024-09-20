@@ -9,7 +9,7 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
 
 ## Table of Contents:
 
-1. [Understanding Kubernetes Fundamentals](#understanding-kubernetes-fundamentals)
+1. [scripts](#scripts)
    - 1.1 [EKS vs. Self-Managed Kubernetes: Pros and Cons](#eks-vs-self-managed-kubernetes-pros-and-cons)
 
 2. [Setting up your AWS Environment for EKS](#setting-up-your-aws-environment-for-eks)
@@ -27,3 +27,6 @@ In this tutorial, we will learn how to create a CI/CD pipeline using AWS CodePip
    - 4.2 [Writing Kubernetes Deployment YAMLs](#writing-kubernetes-deployment-yamls)
    - 4.3 [Deploying Applications to EKS: Step-by-step Guide](#deploying-applications-to-eks-step-by-step-guide)
 
+
+## scripts
+The `scripts` directory contains the start_container.sh and stop_container.sh that will be use to start and stop our container application
