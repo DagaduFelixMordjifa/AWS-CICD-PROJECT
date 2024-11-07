@@ -39,7 +39,7 @@ The `Application Code` is the source code for the application that we want to de
 - EC2
 
 ## Getting Started
-To get started with this project, refer to our [comprehensive guide](https://medium.com/@www.gyenoch/aws-cicd-pipeline-deploy-application-on-ec2-with-aws-code-pipeline-c93dbc283679) that walks you through infrastructure provisioning, CI/CD pipeline configuration and more.
+
 
 ## Contributing
 We welcome contributions! If you have ideas for enhancements or find any issues, please open a pull request or file an issue.
